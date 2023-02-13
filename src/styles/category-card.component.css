@@ -1,0 +1,27 @@
+.c-category-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 325px;
+    height: 200px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.c-category-card__Title {
+    color: #73A2D5;
+}
+
+.c-category-card__ImageHolder {
+    display: block;
+    height: 100%;
+    border: 0.5px solid lightgrey;
+}
+
+.c-category-card__ImageHolder > img {
+    width: 100%;
+    display: block;
+    position:fixed;
+    object-fit: contain;
+    margin: auto;
+}
