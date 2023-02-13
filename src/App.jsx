@@ -1,15 +1,11 @@
 import './App.css';
 import NavBar from './components/nav-bar';
-import SearchBar from './components/search-bar';
-
+import HomePage from './pages/home/home-page';
 function App() {
   return (
     <div className="App">
-      <nav>
-        <NavBar />
-
-        <SearchBar />
-      </nav>
+      <NavBar />
+      <HomePage />
     </div>
   );
 }

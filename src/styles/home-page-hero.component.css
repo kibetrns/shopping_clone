@@ -1,0 +1,17 @@
+.hero {
+    background-image: url("/src/assets/banner-image-short.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 444px;
+    background-position: center;
+    margin-top: -2.8%;
+   
+}
+
+.hero__title {
+    text-align: center;
+    font-size:xx-large;
+    font-weight:100;
+    padding-top: 2%;
+}

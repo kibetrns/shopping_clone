@@ -1,12 +1,13 @@
 .c-nav {
     display: flex;
     width: 100%;
-    margin: 0;
+    margin-left: 2%;
   }
 
   .c-nav__logo {
     height: min-content;
     align-self: center;
+    
   }
 
   .c-nav__logo img {

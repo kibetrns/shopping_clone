@@ -1,9 +1,12 @@
 .c-searchBar {
     display: flex;
-    margin: 4% 16%;
-    border: 0.1px solid lightgray;
+    margin: 0% 16%;
+    border: 0.11px solid lightgrey;
     border-radius: 8px;
     justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
 
 }
 
