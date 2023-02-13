@@ -1,0 +1,21 @@
+.c-grouping-header {
+    margin: 16px 0px;
+}
+
+.c-grouping-header > hr {
+    color: white;  
+}
+
+.c-grouping-header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 32px;
+}
+
+.c-grouping-header-content__Title-Left {
+
+}
+
+.c-grouping-header-content__Title-Right {
+    color: #3C3A98;
+}
