@@ -1,0 +1,86 @@
+.c-footer {
+    width: 100%;
+    margin-top: 32px;
+
+}
+
+.c-footer__Top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #0B0A28;
+    color: white;
+    padding: 0% 16%;
+}
+
+.c-footer__Top > div >  div > a {
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+
+}
+
+.about-content {
+
+}
+
+.helpful-Stuff {
+
+}
+
+.helpful-stuff-content {
+
+}
+
+.eBay-Family {
+
+}
+
+.eBay-Family-content {
+
+}
+
+.shopping-Sites {
+
+}
+
+.shopping-Sites__Container {
+
+}
+
+.country-image-and-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.country-image-card-holder {
+    width: 32px;
+    min-height: 16px;
+    margin-right: 16px;
+    display: block;
+    border: 1px solid white;
+}
+
+.country-image-card-holder > img {
+    position: absolute;
+    width: 100%;
+}
+
+.c-footer__Middle {
+    color: #7A7A7A;   
+}
+
+.c-footer__Middle > p {
+    text-align: center;
+    margin: 0% 16%;
+    padding: 32px 0px;
+}
+
+.c-footer__Copyright {
+    background-color: #8E8E91;
+    color: white;
+    text-align: center;
+    padding: 16px 0px;
+}
