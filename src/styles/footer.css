@@ -1,7 +1,6 @@
 .c-footer {
     width: 100%;
     margin-top: 32px;
-
 }
 
 .c-footer__Top {
@@ -57,15 +56,14 @@
 
 .country-image-card-holder {
     width: 32px;
-    min-height: 16px;
     margin-right: 16px;
-    display: block;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .country-image-card-holder > img {
-    position: absolute;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .c-footer__Middle {

@@ -1,20 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CategoryCard from "./category-card.component";
-import '../../styles/categories.component.css'
+import dummyImage from "../../assets/todo_.jpeg";
+import "../../styles/categories.component.css";
 
-let Categories = () => {
+let Categories = ({categories}) => {
 
-    const categoryTitle = "Clothing and Accessories"
-    const categoryImage = "/src/assets/img_1_10000000.jpg"
 
-    return(
-        <div className="c-Categories-Carousel">
-            <CategoryCard  
-        title={categoryTitle}
-        image={categoryImage}
-      />
-        </div>
-    )
-}
+  return (
+    <div className="c-Categories-Carousel">
+      {categories.map((category) => (
+        <CategoryCard title={category} image={dummyImage} />
+      ))}
+    </div>
+  );
+};
 
-export default Categories
+export default Categories;
