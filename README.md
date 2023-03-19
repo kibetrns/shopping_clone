@@ -1,5 +1,5 @@
 ## Description
-This is a clone of the [shopping](https://www.shopping.com/) website.
+This is a clone of [shopping](https://www.shopping.com/).
 It's work in progress
 ## Running the App
 
